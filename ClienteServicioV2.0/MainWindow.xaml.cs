@@ -40,7 +40,6 @@ namespace ClienteServicioV2._0
             if (myObject.GetType().Name == "String")
             {
                 MessageBox.Show(result);
-                MessageBox.Show(" ");
             }
             else
             {
