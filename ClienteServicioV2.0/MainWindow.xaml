@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ClienteServicioV2._0"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720.2" Width="500" AllowsTransparency="True" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="MainWindow" Height="720.2" Width="500" AllowsTransparency="True" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="icons8_calculator_32.png">
     <Window.Resources>
         <Storyboard x:Key="Animación">
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectangle">
@@ -1114,12 +1114,6 @@
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="txtLadoB">
                 <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label10_Copy2">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="txtLadoC">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
-            </ObjectAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="CambioCirculo">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="path">
@@ -1846,12 +1840,6 @@
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="txtLadoB">
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label10_Copy2">
-                <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="{x:Static Visibility.Visible}"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="txtLadoC">
-                <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="{x:Static Visibility.Visible}"/>
-            </ObjectAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="grid">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-396"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-398"/>
@@ -2020,12 +2008,6 @@
                 <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="txtLadoB">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label10_Copy2">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="txtLadoC">
                 <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label">
@@ -2238,12 +2220,6 @@
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="txtLadoB">
                 <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label10_Copy2">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="txtLadoC">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
-            </ObjectAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="grid">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-398.2"/>
             </DoubleAnimationUsingKeyFrames>
@@ -2421,14 +2397,6 @@
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="txtLadoB">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
-                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label10_Copy2">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
-                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="txtLadoC">
                 <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
@@ -2685,12 +2653,12 @@
         <Grid x:Name="GridTriangulo" Margin="22.2,348.5,21.8,10" Visibility="Hidden">
             <Label x:Name="label12" Content="El área es:" HorizontalAlignment="Left" Height="28" Margin="55.45,138.8,0,0" VerticalAlignment="Top" Width="62.4" FontWeight="Bold" Visibility="Hidden"/>
             <Label x:Name="label13" Content="Cálculo de Área y Perímetro del Triángulo" HorizontalAlignment="Left" Margin="41,0,0,324.3" Width="373.4" FontWeight="Bold" FontFamily="Century Gothic" FontSize="18" Visibility="Hidden"/>
-            <Label x:Name="label14" Content="Ingrese el tamaño del lado A:" HorizontalAlignment="Left" Margin="41.6,36.8,0,300.477" Width="190.4" FontFamily="Century Gothic" Visibility="Hidden"/>
+            <Label x:Name="label14" Content="Ingrese el tamaño del lado A:" HorizontalAlignment="Left" Margin="45.6,54.8,0,282.477" Width="190.4" FontFamily="Century Gothic" Visibility="Hidden"/>
             <Label x:Name="label15" Content="El perímetro es:" HorizontalAlignment="Left" Height="28" Margin="233.425,139.31,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold" Visibility="Hidden"/>
-            <Button x:Name="btnCalcularTriang" Content="Calcular" HorizontalAlignment="Left" Height="29.6" Margin="316.4,74.023,0,0" VerticalAlignment="Top" Width="92" FontFamily="Century Gothic" FontSize="15" Cursor="Hand" Background="#FF252E3B" Foreground="White" AutomationProperties.Name="btnCalcularCirc" Visibility="Hidden" Click="btnCalcularTriang_Click"/>
+            <Button x:Name="btnCalcularTriang" Content="Calcular" HorizontalAlignment="Left" Height="29.6" Margin="316.4,74.023,0,0" VerticalAlignment="Top" Width="92" FontFamily="Century Gothic" FontSize="15" Cursor="Hand" Background="#FF252E3B" Foreground="White" AutomationProperties.Name="btnCalcularCirc" Click="btnCalcularTriang_Click" Visibility="Hidden"/>
             <TextBlock x:Name="txtAreaTriang" HorizontalAlignment="Left" Height="19.423" Margin="134.65,145.887,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52.975" FontFamily="Century Gothic" Text="0" AutomationProperties.Name="txtAreaCuad" FontWeight="Bold" ScrollViewer.VerticalScrollBarVisibility="Hidden" Visibility="Hidden"/>
             <TextBlock x:Name="txtPerTriang" HorizontalAlignment="Left" Height="19.423" Margin="341.425,144.887,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52.975" FontFamily="Century Gothic" Text="0" AutomationProperties.Name="txtPerCuad" FontWeight="Bold" ScrollViewer.VerticalScrollBarVisibility="Hidden" Visibility="Hidden"/>
-            <Button x:Name="btnMostrarTriang" Content="Revisar los Cálculos Registrados" HorizontalAlignment="Left" Height="31.4" Margin="101.329,172.11,0,0" VerticalAlignment="Top" Width="251.096" AutomationProperties.Name="btnMostrarGridCuad" FontFamily="Century Gothic" FontSize="15" Background="#FF252E3B" Foreground="#FFFFFCFC" ScrollViewer.VerticalScrollBarVisibility="Hidden" Visibility="Hidden" Click="btnMostrarTriang_Click"/>
+            <Button x:Name="btnMostrarTriang" Content="Revisar los Cálculos Registrados" HorizontalAlignment="Left" Height="31.4" Margin="101.329,172.11,0,0" VerticalAlignment="Top" Width="251.096" AutomationProperties.Name="btnMostrarGridCuad" FontFamily="Century Gothic" FontSize="15" Background="#FF252E3B" Foreground="#FFFFFCFC" ScrollViewer.VerticalScrollBarVisibility="Hidden" Click="btnMostrarTriang_Click" Visibility="Hidden"/>
             <DataGrid x:Name="dgTriang" HorizontalAlignment="Left" Height="131.3" Margin="22,220.4,0,0" VerticalAlignment="Top" Width="423.2" RenderTransformOrigin="0.5,0.5" AutomationProperties.Name="dgCuadrado" Visibility="Hidden">
                 <DataGrid.RenderTransform>
                     <TransformGroup>
@@ -2701,11 +2669,9 @@
                     </TransformGroup>
                 </DataGrid.RenderTransform>
             </DataGrid>
-            <TextBox x:Name="txtLadoA" HorizontalAlignment="Left" Height="20.923" Margin="236,39.3,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55.65" AutomationProperties.Name="txtCirc" PreviewTextInput="txtCuadrado_PreviewTextInput" Visibility="Hidden"/>
-            <Label x:Name="label10_Copy1" Content="Ingrese el tamaño del lado B:" HorizontalAlignment="Left" Margin="41.6,75.173,0,262.104" Width="190.4" FontFamily="Century Gothic" Visibility="Hidden"/>
-            <TextBox x:Name="txtLadoB" HorizontalAlignment="Left" Height="20.923" Margin="236,77.673,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55.65" AutomationProperties.Name="txtCirc" PreviewTextInput="txtCuadrado_PreviewTextInput" Visibility="Hidden"/>
-            <Label x:Name="label10_Copy2" Content="Ingrese el tamaño del lado C:" HorizontalAlignment="Left" Margin="41.6,108.887,0,228.39" Width="190.4" FontFamily="Century Gothic" Visibility="Hidden"/>
-            <TextBox x:Name="txtLadoC" HorizontalAlignment="Left" Height="20.923" Margin="236,111.387,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55.65" AutomationProperties.Name="txtCirc" PreviewTextInput="txtCuadrado_PreviewTextInput" Visibility="Hidden"/>
+            <TextBox x:Name="txtLadoA" HorizontalAlignment="Left" Height="20.923" Margin="240,57.3,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55.65" AutomationProperties.Name="txtCirc" PreviewTextInput="txtCuadrado_PreviewTextInput" Visibility="Hidden"/>
+            <Label x:Name="label10_Copy1" Content="Ingrese el tamaño del lado B:" HorizontalAlignment="Left" Margin="45.6,93.173,0,244.104" Width="190.4" FontFamily="Century Gothic" Visibility="Hidden"/>
+            <TextBox x:Name="txtLadoB" HorizontalAlignment="Left" Height="20.923" Margin="240,95.673,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55.65" AutomationProperties.Name="txtCirc" PreviewTextInput="txtCuadrado_PreviewTextInput" Visibility="Hidden"/>
         </Grid>
         <Grid x:Name="grid" Margin="74.6,710.425,174.725,1.825" RenderTransformOrigin="0.5,0.5">
             <Grid.RenderTransform>
@@ -2721,5 +2687,10 @@
             <Path Data="M1.1920917E-08,7.5 L10.3,7.4 L5.4749945,8.7581154E-47 z" Fill="White" HorizontalAlignment="Left" Height="7.7" Margin="80.075,0.25,0,0" VerticalAlignment="Top" Width="10.4"/>
             <Path Data="M1.1920917E-08,7.5 L10.3,7.4 L5.4749945,8.7581154E-47 z" Fill="White" HorizontalAlignment="Left" Height="7.7" VerticalAlignment="Top" Width="10.4"/>
         </Grid>
+        <Rectangle HorizontalAlignment="Left" Height="17.9" Margin="477.3,4.305,0,0" VerticalAlignment="Top" Width="17.7" MouseDown="Rectangle_MouseDown_1">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="delete_24px.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
     </Grid>
 </Window>

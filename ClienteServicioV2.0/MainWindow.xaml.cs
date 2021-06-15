@@ -39,12 +39,11 @@ namespace ClienteServicioV2._0
             Object myObject = result;
             if (myObject.GetType().Name == "String")
             {
-                dgCuad.ItemsSource= myObject.ToString();
-                MessageBox.Show(myObject.ToString());
+                MessageBox.Show(result);
             }
             else
             {
-                Console.WriteLine("Elementos listados.");
+                dgCuad.ItemsSource = result;
             }
         }
 
@@ -54,12 +53,11 @@ namespace ClienteServicioV2._0
             Object myObject = result;
             if (myObject.GetType().Name == "String")
             {
-                dgCirc.ItemsSource=result;
                 MessageBox.Show(result);
             }
             else
             {
-                Console.WriteLine("Triangulos listados.");
+                dgTriang.ItemsSource = result;
             }
         }
 
@@ -186,7 +184,6 @@ namespace ClienteServicioV2._0
         {
             try
             {
-                MessageBox.Show("Entra");
                 ListSquares();
             }
             catch (Exception ex)
@@ -213,13 +210,17 @@ namespace ClienteServicioV2._0
         {
             try
             {
-                MessageBox.Show("Entra");
                 ListTriangles();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void Rectangle_MouseDown_1(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();
         }
     }
 }

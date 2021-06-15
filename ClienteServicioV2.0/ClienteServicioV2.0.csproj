@@ -216,5 +216,14 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons8_calculator_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="delete_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="delete_24px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
